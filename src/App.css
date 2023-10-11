@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.miformulario input,
+.miformulario textarea{
+  display: block;
+  width: 60%;
+  max-width: 300px ;
+  margin: 15px auto;
+  padding: 10px;
+
+}
+.miformulario input[type="submit"]{
+  width: 100px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  background-color: green;
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+}
+.miformulario input[type="submit"]:hover{
+  width: 100px;
+  cursor: pointer;
+  margin-bottom: 100px;
+  background-color: rgb(6, 214, 6);
+  color: white;
+  border: 0px;
+  border-radius: 3px;
+}
+.enviado{
+  background-color: green;
+  color: white;
+  padding: 5px;
 }
